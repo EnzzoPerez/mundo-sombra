@@ -12,3 +12,18 @@
       height: auto;
       z-index: -100;
     }
+
+    #count-box1, #count-box2, #count-box3,
+    #count-box4, #count-box5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px #ccc solid;
+        color: #ccc;
+        font-size: 4em;
+        border-radius: 50%;
+        line-height: 200px;
+        height: 140px;
+        width: 140px;
+        text-align: center;
+        }

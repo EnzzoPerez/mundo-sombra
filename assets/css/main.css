@@ -484,6 +484,8 @@
 		}
 
 		.row.uniform > * {
+			text-align: -webkit-center;
+			text-align: -moz-center;
 			padding: 2.5em 0 0 2.5em;
 		}
 
@@ -699,6 +701,8 @@
 		}
 
 		.row.uniform > * {
+			text-align: -webkit-center;
+			text-align: -moz-center;
 			padding: 2.5em 0 0 2.5em;
 		}
 
@@ -914,6 +918,8 @@
 		}
 
 		.row.uniform > * {
+			text-align: -webkit-center;
+			text-align: -moz-center;
 			padding: 2.5em 0 0 2.5em;
 		}
 
@@ -1129,6 +1135,8 @@
 		}
 
 		.row.uniform > * {
+			text-align: -webkit-center;
+			text-align: -moz-center;
 			padding: 2.5em 0 0 2.5em;
 		}
 
@@ -1344,6 +1352,8 @@
 		}
 
 		.row.uniform > * {
+			text-align: -webkit-center;
+			text-align: -moz-center;
 			padding: 2.5em 0 0 2.5em;
 		}
 
