@@ -14,10 +14,10 @@
     }
 
 #eight{
+    height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 600px;
-    flex-direction: column;
+    text-align: center;
+    padding: 40px;
 }
     
