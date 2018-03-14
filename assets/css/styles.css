@@ -20,4 +20,29 @@
     text-align: center;
     padding: 40px;
 }
-    
+
+.map{
+    display: flex;
+    margin: 5% 0 5%;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.map-left, .map-right{
+    display: flex;
+    justify-content: center;
+}
+
+.map-right{
+    flex-direction: column;
+}
+
+no-after:after{
+    background: transparent;
+}
+
+@media (max-width: 575.98px){
+    #map-res{
+        width: 300px;
+    }
+}
