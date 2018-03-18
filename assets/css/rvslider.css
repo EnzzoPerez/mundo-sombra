@@ -669,7 +669,7 @@
 .rvs-nav-item-title,
 .rvs-thumb-play .rvs-nav-item-thumb:before,
 .rvs-thumb-play .rvs-nav-item-thumb:hover:before {
-	color: #FFF;
+	color: rgb(0, 0, 0);
 }
 .rvs-container a.rvs-play-video,
 .rvs-container a.rvs-play-video:active,
