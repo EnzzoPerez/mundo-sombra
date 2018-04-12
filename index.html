@@ -39,7 +39,7 @@
 							<li>
 								<ul>
 									<li><a target="_black" rel="noopener noreferrer nofollow" href="http://observadoresglencore.com/wp-content/uploads/2017/03/Informe-Sombra-de-las-Operacines-de-Glencore-en-Latinoam%C3%A9rica.pdf" class="button special">
-										Informe Sombra completo (Spanish)
+										Informe Sombra Completo (Spanish)
 									</a></li>
 									<li><a target="_black" rel="noopener noreferrer nofollow" href="http://observadoresglencore.com/wp-content/uploads/2017/03/Informe-Sombra-de-las-Operacines-de-Glencore-en-Latinoam%C3%A9rica-RESUMEN-EJECUTIVO.pdf" class="button special">
 										Resumen Ejecutivo Glencore (Spanish)
@@ -215,8 +215,14 @@
 			<h2>Proyectos de Glencore</h2>
 			<p>En Latinoamerica Glencore maneja los siguientes proyectos</p>
 		</header>
-		<div class="map-left">
-			<iframe id="map-res" src="https://www.google.com/maps/d/u/0/embed?mid=1MB4JiKHBzOTiTzW48gpaHJOMgVk" width=100% height="480"></iframe>
+		<div class="map" id="basic">
+				<script>
+					var basic = new Datamap({
+					element: document.getElementById("basic")
+				    });
+					</script>
+
+			<!-- <iframe id="map-res" src="https://www.google.com/maps/d/u/0/embed?mid=1MB4JiKHBzOTiTzW48gpaHJOMgVk" width=100% height="480"></iframe> -->
 		</div>
 	</section>
 
@@ -337,6 +343,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script src="assets/js/rvslider.min.js"></script>
+			<script src="assets/js/datamaps.world.hires.min.js"></script>
 			<script>
 				jQuery(function($){
 					$('.rvs-container').rvslider();
